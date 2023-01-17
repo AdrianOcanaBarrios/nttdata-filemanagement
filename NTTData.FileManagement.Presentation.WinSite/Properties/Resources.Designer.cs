@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NTTData.FileManagement.Presentation.WinSite.Properties
+namespace NttData.FileManagement.Presentation.WinSite.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace NTTData.FileManagement.Presentation.WinSite.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NTTData.FileManagement.Presentation.WinSite.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NttData.FileManagement.Presentation.WinSite.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

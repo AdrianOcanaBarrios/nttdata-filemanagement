@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFC9F629-FAB1-422C-A645-A408FE3B290D}</ProjectGuid>
+    <ProjectGuid>{F0B57847-A411-4524-BF0A-E8AE8A75DCCF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NTTData.FileManagement.Presentation.WinSite</RootNamespace>
-    <AssemblyName>NTTData.FileManagement.Presentation.WinSite</AssemblyName>
+    <RootNamespace>NttData.FileManagement.Presentation.WinSite</RootNamespace>
+    <AssemblyName>NttData.FileManagement.Presentation.WinSite</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmStudent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmStudent.Designer.cs">
+      <DependentUpon>frmStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,13 +77,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NTTData.FileManagement.Business.Logic\NTTData.FileManagement.Business.Logic.csproj">
-      <Project>{ffe40e5c-3c44-4bf3-adb2-9bb8092ceb26}</Project>
-      <Name>NTTData.FileManagement.Business.Logic</Name>
+    <ProjectReference Include="..\NttData.FileManagement.Business.Logic\NttData.FileManagement.Business.Logic.csproj">
+      <Project>{b6b4e1ec-921d-4312-b0fe-86c0eb61e599}</Project>
+      <Name>NttData.FileManagement.Business.Logic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NTTData.FileManagement.Common.Model\NTTData.FileManagement.Common.Model.csproj">
-      <Project>{ee1a1256-dfcf-4e50-9cf5-5dfc82d83cbf}</Project>
-      <Name>NTTData.FileManagement.Common.Model</Name>
+    <ProjectReference Include="..\NttData.FileManagement.Common.Model\NttData.FileManagement.Common.Model.csproj">
+      <Project>{822957bc-c808-41e0-a4d8-8aa9aeeea5b9}</Project>
+      <Name>NttData.FileManagement.Common.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

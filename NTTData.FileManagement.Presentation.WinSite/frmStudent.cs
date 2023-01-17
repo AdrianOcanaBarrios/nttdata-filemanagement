@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NTTData.FileManagement.Presentation.WinSite
+namespace NttData.FileManagement.Presentation.WinSite
 {
-    public partial class Form1 : Form
+    public partial class frmStudent : Form
     {
-        public Form1()
+        public frmStudent()
         {
             InitializeComponent();
         }

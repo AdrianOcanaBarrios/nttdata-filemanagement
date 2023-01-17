@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Tier", "1 - Presentation Tier", "{6DD77148-3B2D-478A-A41A-B08F059EFA85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business Tier", "2 - Business Tier", "{E9534109-1BE8-456A-8137-CB21C4C80CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - DataAccess Tier", "3 - DataAccess Tier", "{F5CEA9F5-77B2-41DD-BBDD-49F7F0DA12B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Presentation.WinSite", "NttData.FileManagement.Presentation.WinSite\NttData.FileManagement.Presentation.WinSite.csproj", "{F0B57847-A411-4524-BF0A-E8AE8A75DCCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Common Tier", "4 - Common Tier", "{61DEFE54-838D-4C2B-86B6-A52177EC5552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Business.Logic", "NttData.FileManagement.Business.Logic\NttData.FileManagement.Business.Logic.csproj", "{B6B4E1EC-921D-4312-B0FE-86C0EB61E599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.DataAccess.Repository", "NttData.FileManagement.DataAccess.Repository\NttData.FileManagement.DataAccess.Repository.csproj", "{48822B00-D7C9-4DDF-8C88-C70AC38B98F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Common.Model", "NttData.FileManagement.Common.Model\NttData.FileManagement.Common.Model.csproj", "{822957BC-C808-41E0-A4D8-8AA9AEEEA5B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0B57847-A411-4524-BF0A-E8AE8A75DCCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B57847-A411-4524-BF0A-E8AE8A75DCCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B57847-A411-4524-BF0A-E8AE8A75DCCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B57847-A411-4524-BF0A-E8AE8A75DCCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B4E1EC-921D-4312-B0FE-86C0EB61E599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B4E1EC-921D-4312-B0FE-86C0EB61E599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B4E1EC-921D-4312-B0FE-86C0EB61E599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B4E1EC-921D-4312-B0FE-86C0EB61E599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48822B00-D7C9-4DDF-8C88-C70AC38B98F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48822B00-D7C9-4DDF-8C88-C70AC38B98F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48822B00-D7C9-4DDF-8C88-C70AC38B98F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48822B00-D7C9-4DDF-8C88-C70AC38B98F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822957BC-C808-41E0-A4D8-8AA9AEEEA5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822957BC-C808-41E0-A4D8-8AA9AEEEA5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822957BC-C808-41E0-A4D8-8AA9AEEEA5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822957BC-C808-41E0-A4D8-8AA9AEEEA5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0B57847-A411-4524-BF0A-E8AE8A75DCCF} = {6DD77148-3B2D-478A-A41A-B08F059EFA85}
+		{B6B4E1EC-921D-4312-B0FE-86C0EB61E599} = {E9534109-1BE8-456A-8137-CB21C4C80CEF}
+		{48822B00-D7C9-4DDF-8C88-C70AC38B98F2} = {F5CEA9F5-77B2-41DD-BBDD-49F7F0DA12B1}
+		{822957BC-C808-41E0-A4D8-8AA9AEEEA5B9} = {61DEFE54-838D-4C2B-86B6-A52177EC5552}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97605E03-4440-434F-AABA-96F49AA2D81D}
+	EndGlobalSection
+EndGlobal

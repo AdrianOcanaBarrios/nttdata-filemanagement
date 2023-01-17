@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("NTTData.FileManagement.Presentation.WinSite")]
+[assembly: AssemblyTitle("NttData.FileManagement.Presentation.WinSite")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NTTData")]
-[assembly: AssemblyProduct("NTTData.FileManagement.Presentation.WinSite")]
-[assembly: AssemblyCopyright("Copyright © NTTData 2023")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("NttData.FileManagement.Presentation.WinSite")]
+[assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("afc9f629-fab1-422c-a645-a408fe3b290d")]
+[assembly: Guid("f0b57847-a411-4524-bf0a-e8ae8a75dccf")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
