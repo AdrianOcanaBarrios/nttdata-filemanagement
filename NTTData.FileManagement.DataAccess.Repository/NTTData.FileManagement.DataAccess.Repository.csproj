@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38070C6A-921F-4014-84B8-64F378D4E9EB}</ProjectGuid>
+    <ProjectGuid>{48822B00-D7C9-4DDF-8C88-C70AC38B98F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NTTData.FileManagement.DataAccess.Repository</RootNamespace>
-    <AssemblyName>NTTData.FileManagement.DataAccess.Repository</AssemblyName>
+    <RootNamespace>NttData.FileManagement.DataAccess.Repository</RootNamespace>
+    <AssemblyName>NttData.FileManagement.DataAccess.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,13 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Contracts\IStudentRepository.cs" />
+    <Compile Include="Implementations\StudentRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NTTData.FileManagement.Common.Model\NTTData.FileManagement.Common.Model.csproj">
-      <Project>{ee1a1256-dfcf-4e50-9cf5-5dfc82d83cbf}</Project>
-      <Name>NTTData.FileManagement.Common.Model</Name>
+    <ProjectReference Include="..\NttData.FileManagement.Common.Model\NttData.FileManagement.Common.Model.csproj">
+      <Project>{822957bc-c808-41e0-a4d8-8aa9aeeea5b9}</Project>
+      <Name>NttData.FileManagement.Common.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
