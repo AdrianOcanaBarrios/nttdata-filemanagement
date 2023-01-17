@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FFE40E5C-3C44-4BF3-ADB2-9BB8092CEB26}</ProjectGuid>
+    <ProjectGuid>{B6B4E1EC-921D-4312-B0FE-86C0EB61E599}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NTTData.FileManagement.Business.Logic</RootNamespace>
@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Contract\IStudentService.cs" />
+    <Compile Include="Implementations\StudentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
